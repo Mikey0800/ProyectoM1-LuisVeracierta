@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    margin: 1;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+#titulo {
+    font-family: 'Arial', sans-serif;
+    font-size: 3rem;
+    color: #487bc6;
+    font-weight: bold;
+    text-align: center;
+}
+#subtitulo {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.5rem;
+    color: #487bc6;
+    font-weight: bold;
+    text-align: center;
+}
+.descripcion {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.2rem;
+    color: #666;
+    text-align: center;
+}
