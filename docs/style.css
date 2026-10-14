@@ -13,48 +13,45 @@ body {
     color: #f9f3f3;
     background-color: rgb(9, 9, 9);
 }
-
+#caja-principal {
+    display: grid;
+    height: 0 auto;
+    width: 0 auto;
+    background-color: #f9f3f3;
+    border-radius: 20px;
+    justify-content: center;
+}
 #titulo {
     font-family: 'Arial', sans-serif;
     font-size: 3rem;
     color: #f4f6f8;
     font-weight: bold;
-    text-align: left
-}
-#subtitulo {
-    font-family: 'Arial', sans-serif;
-    font-size: 1.5rem;
-    color: #eaecef;
-    font-weight: bold;
     text-align: center;
 }
-.descripcion {
-    font-family: 'Arial', sans-serif;
-    font-size: 1.2rem;
-    color: #f6f2f2;
-    text-align: center;
-}
+
+
 .paleta {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 10px;
     margin-top: 20px;
 }
 .bloque-color {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: #fff;
+    border-radius: 30px;
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
-    border-radius: 5px;
     cursor: pointer;
     transition: transform 0.5s ease, box-shadow 0.5s ease;
 }
 .controles {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
     display: flex;
     justify-content: center;
     gap: 10px;
@@ -68,5 +65,16 @@ body {
 }
 .formatos{
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color:black;
 
+
+}
+
+button {
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+   
+   
 }
