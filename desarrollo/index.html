@@ -1,44 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
-    <title>Colorfly Studio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <title>Colorfly Studio</title>
 </head>
 
 <body>
+    <!-- Encabezado de la página -->
     <header>
         <h1 id="titulo">Colorfly Studio</h1>
-        <h2 id="subtitulo">Inspiración instantánea. Flujo creativo sin pausas.</h2>
-        <p class="descripcion">La herramienta oficial de Colorfly Studio para generar, estandarizar y exportar paletas
-            de color en segundos.
-            Diseñada para agilizar nuestras propuestas visuales de principio a fin.</p>
-    </header>
-    <main>
-        <main>
-            <!-- Sección de controles para elegir la cantidad de colores -->
-            <section class="controles">
-                <h2>Genera tu combinación</h2>
-                <button class="btn6">6 Colores</button>
-                <button class="btn8">8 Colores</button>
-                <button class="btn9">9 Colores</button>
-                <button class="btngenerar">Generar paleta</button>
-            </section>
+        <p id="subtitulo">Inspiración instantánea. Flujo creativo sin pausas.</p>
 
-            <!-- Contenedor donde se mostrarán los bloques de color -->
-            <section class="paleta">
-                <div class="bloque-color"></div>
-                <div class="bloque-color"></div>
-                <div class="bloque-color"></div>
-                <div class="bloque-color"></div>
-                <div class="bloque-color"></div>
-                <div class="bloque-color"></div>
-            </section>
-        </main>
+        <p class="descripcion">La herramienta oficial de Colorfly Studio para generar,
+            estandarizar y exportar paletas de color en segundos.
+            Diseñada para agilizar nuestras propuestas visuales
+            de principio a fin.</p>
+    </header>
+    <!-- Contenido principal -->
+    <main>
+        <!-- Controles para elegir la cantidad de colores -->
+        <section class="controles">
+            <h2>Genera tu combinación</h2>
+
+            <button type="button" class="btn6">6 Colores</button>
+            <button type="button" class="btn8">8 Colores</button>
+            <button type="button" class="btn9">9 Colores</button>
+
+            <button type="button" class="btngenerar">Generar paleta</button>
+        </section>
+        <!-- Selector del formato de color -->
+        <section class="formatos">
+            <h2>Elige el formato</h2>
+
+            <label for="formato-color">Formato de los códigos:</label>
+
+            <select id="formato-color" name="formato-color">
+                <option value="hsl">HSL</option>
+                <option value="hex" selected>HEX</option>
+                <option value="rgba">RGBA</option>
+            </select>
+        </section>
+
+        <!-- Contenedor de los bloques de color -->
+        <section class="paleta" aria-label="Paleta de colores generada">
+            <div class="bloque-color"></div>
+            <div class="bloque-color"></div>
+            <div class="bloque-color"></div>
+            <div class="bloque-color"></div>
+            <div class="bloque-color"></div>
+            <div class="bloque-color"></div>
+        </section>
+
     </main>
+    <!-- Pie de página -->
+    <footer>
+        <p class = "derechos"> Todos los derechos reservados. Luis Veracierta.</p>
+    </footer>
+
 </body>
 
 </html>
