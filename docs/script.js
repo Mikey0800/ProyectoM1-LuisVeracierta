@@ -113,16 +113,14 @@ function convertirHSLaRGBA(h, s, l) {
 
 function obtenerCodigoColor(color, formato) {
     if (formato === "hsl") {
-        return `hsl(${color.h}, ${color.s}%, ${color.l}%)`;
+        return `(${color.h}, ${color.s}%, ${color.l}%)`;
     }
 
     if (formato === "hex") {
         return convertirHSLaHEX(color.h, color.s, color.l);
     }
 
-    if (formato === "rgba") {
-        return convertirHSLaRGBA(color.h, color.s, color.l);
-    }
+    
 }
 //bloque de prueba//
 let colorPrueba = generarColorHSL();

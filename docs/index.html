@@ -1,58 +1,58 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
-  <title>Colorfly Studio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Colorfly Studio</title>
 </head>
 
 <body>
     <!-- Encabezado de la página -->
     <header>
         <h1 id="titulo">Colorfly Studio</h1>
-    
+
     </header>
     <!-- Contenido principal -->
     <main id="caja-principal">
         <!-- Controles para elegir la cantidad de colores -->
-        <section class="controles">
-            <h2>Genera tu combinación</h2>
-            
-            <button type="button" class="btn6">6 Colores</button>
-            <button type="button" class="btn8">8 Colores</button>
-            <button type="button" class="btn9">9 Colores</button>
+        <div id="panel-control">
+            <section class="controles">
+                <h2>Genera tu combinación</h2>
 
-            <button type="button" class="btngenerar">Generar paleta</button>
-        </section>
-        <!-- Selector del formato de color -->
-        <section class="formatos">
-            <h2>Elige el formato</h2>
+                <button type="button" class="btn6">6 Colores</button>
+                <button type="button" class="btn8">8 Colores</button>
+                <button type="button" class="btn9">9 Colores</button>
 
-            <label for="formato-color">Formato de los códigos:</label>
+                <button type="button" class="btngenerar">Generar paleta</button>
+            </section>
+            <!-- Selector del formato de color -->
+            <section class="formatos">
+                <h2>Elige el formato</h2>
 
-            <select id="formato-color" name="formato-color">
-                <option value="hsl">HSL</option>
-                <option value="hex" selected>HEX</option>
-                <option value="rgba">RGBA</option>
-            </select>
-        </section>
+                <label for="formato-color">Formato de los códigos:</label>
 
-        <!-- Contenedor de los bloques de color -->
-        <section class="paleta" aria-label="Paleta de colores generada">
-            <div class="bloque-color"></div>
-            <div class="bloque-color"></div>
-            <div class="bloque-color"></div>
-            <div class="bloque-color"></div>
-            <div class="bloque-color"></div>
-            <div class="bloque-color"></div>
-        </section>
-
+                <select id="formato-color" name="formato-color">
+                    <option value="hsl">HSL</option>
+                    <option value="hex" selected>HEX</option>
+                </select>
+            </section>
+        </div>
+            <!-- Contenedor de los bloques de color -->
+            <section class="paleta" aria-label="Paleta de colores generada">
+                <div class="bloque-color"></div>
+                <div class="bloque-color"></div>
+                <div class="bloque-color"></div>
+                <div class="bloque-color"></div>
+                <div class="bloque-color"></div>
+                <div class="bloque-color"></div>
+            </section>
     </main>
     <!-- Pie de página -->
     <footer>
-        <p class = "derechos"> Todos los derechos reservados. Luis Veracierta.</p>
+        <p class="derechos"> Desarrollado por Luis Veracierta.</p>
     </footer>
 
 </body>
