@@ -7,7 +7,7 @@
 Usa los siguientes accesos directos para explorar fácilmente los puntos clave del desarrollo:
 
 * 🚀 **[Demo de Colorfly Studio](https://mikey0800.github.io/ProyectoM1-LuisVeracierta/)**
-* 📖 **[Documentación principal de la página](./documentacion/README.md)**
+* 📖 **[Documentación principal de la página](./documentación/README.md)**
 
 ---
 

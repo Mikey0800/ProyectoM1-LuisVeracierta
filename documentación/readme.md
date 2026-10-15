@@ -7,7 +7,7 @@ Colorfly Studio es una aplicación web para generar paletas de colores aleatoria
 
 *Demo en línea:* (https://mikey0800.github.io/ProyectoM1-LuisVeracierta/)
 
-*Gif usando el MVP:* (C:\Users\manji\Documents\Recording 2026-10-15 175652.mp4)
+*Gif usando el MVP:* (./documentación/app-gif.mp4)
 
 *Repositorio de GitHub:* (https://github.com/Mikey0800/ProyectoM1-LuisVeracierta.git)
 
