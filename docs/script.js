@@ -230,7 +230,6 @@ btn6.addEventListener("click", () => {
     btn6.classList.add("active");
     console.log("Botón 6 colores presionado");
     cantidadSeleccionada = 6;
-    generarPaleta();
 });
 
 // Selecciona una paleta de 8 colores.
@@ -241,7 +240,6 @@ btn8.addEventListener("click", () => {
     btn8.classList.add("active");
     console.log("Botón 8 colores presionado");
     cantidadSeleccionada = 8;
-    generarPaleta();
 });
 
 // Selecciona una paleta de 9 colores.
@@ -252,27 +250,5 @@ btn9.addEventListener("click", () => {
     btn9.classList.add("active");
     console.log("Botón 9 colores presionado");
     cantidadSeleccionada = 9;
-    generarPaleta();
 });
-// ==================================================
-// 6. CÓDIGO DE INICIALIZACIÓN ORIGINAL
-// ==================================================
-// Genera una lista inicial de 6 colores.
-let arrayColores = [];
-for (let i = 0; i < 6; i++) {
-    arrayColores.push(generarColor());
-}
-console.log("Array de colores generado: ", arrayColores);
-
-// Busca los bloques que ya existen en el HTML.
-let bloquesColor = paleta.querySelectorAll(".bloque-color");
-
-// Aplica los colores iniciales a esos bloques existentes.
-bloquesColor.forEach((bloque, index) => {
-    bloque.style.backgroundColor = arrayColores[index];
-    let etiquetaColor = document.createElement("span");
-    bloque.replaceChildren();
-    etiquetaColor.textContent = arrayColores[index];
-    bloque.appendChild(etiquetaColor);
-    console.log("Bloque de color: ", bloque);
-});
+generarPaleta();
