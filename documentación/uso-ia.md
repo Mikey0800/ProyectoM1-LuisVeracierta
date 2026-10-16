@@ -2,19 +2,19 @@
 Fundamento del proyecto
 Sinopsis: se evidencia el aprendizaje de cómo generar los bloques de colores dinámicamente mediante JavaScript, en lugar de depender de elementos estáticos en HTML.
 Importancia: demuestra el desarrollo de la funcionalidad principal de Colorfly Studio.
-[def]:./imagenes-readme/image.png
+(![alt text](imagenes-readme/image.png))
 2. Generación y conversión de colores
 Decisión técnica
 Sinopsis: muestra cómo se abordó la generación de colores en HSL y la conversión de sus valores a HEX para presentarlos en la interfaz.
 Importancia: evidencia una parte central de la lógica de la aplicación.
-[def]:./imagenes-readme/image-2.png
-[def]:./imagenes-readme/image-5.png
+(![alt text](imagenes-readme/image-1.png))
+(![alt text](imagenes-readme/image-2.png))
 
 3. Comprensión de los eventos de JavaScript
 Aprendizaje guiado
 Sinopsis: trabajamos la diferencia entre pasar una función como referencia y ejecutarla inmediatamente.
 Importancia: demuestra que el acompañamiento no consistió únicamente en producir código, sino también en comprender su funcionamiento.
-[def]:./imagenes-readme/image-4.png
+(![alt text](imagenes-readme/image-4.png))
 
 4. Tu código CSS y su corrección
 Implementación propia
@@ -29,10 +29,9 @@ Implementación propia
 .btn6:hover {
     transform: translateY(-2px);
 }
-[def]:./imagenes-readme/image-css1.png
-[def]:./imagenes-readme/image-css2.png
-[def]:./imagenes-readme/image-css3.png
-
+(![alt text](imagenes-readme/image-css1.png))
+(![alt text](imagenes-readme/image-css2.png))
+(![alt text](imagenes-readme/image-css3.png))
 5. Documentación final del proyecto
 Entrega profesional
 la animación CSS y la documentación del uso de IA.
