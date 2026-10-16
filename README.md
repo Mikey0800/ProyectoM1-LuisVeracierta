@@ -8,7 +8,7 @@ Usa los siguientes accesos directos para explorar fácilmente los puntos clave d
 
 * 🚀 **[Demo de Colorfly Studio](https://mikey0800.github.io/ProyectoM1-LuisVeracierta/)**
 
-**[Gif usando el MVP]**
+**[Gif usando el MVP](![alt text](documentación/app.gif)**
 
 ---
 
@@ -30,7 +30,7 @@ Colorfly Studio es una aplicación web para generar paletas de colores aleatoria
 
 *Demo en línea:* (https://mikey0800.github.io/ProyectoM1-LuisVeracierta/)
 
-**[Gif usando el MVP]**
+**[Gif usando el MVP](![alt text](documentación/app.gif)**
 
 *Repositorio de GitHub:* (https://github.com/Mikey0800/ProyectoM1-LuisVeracierta.git)
 
