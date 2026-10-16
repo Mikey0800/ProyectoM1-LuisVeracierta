@@ -8,7 +8,7 @@ Usa los siguientes accesos directos para explorar fácilmente los puntos clave d
 
 * 🚀 **[Demo de Colorfly Studio](https://mikey0800.github.io/ProyectoM1-LuisVeracierta/)**
 
-* Demostración MVP **[Gif usando el MVP][def]**
+**[Gif usando el MVP][def]**
 
 ---
 
@@ -30,7 +30,7 @@ Colorfly Studio es una aplicación web para generar paletas de colores aleatoria
 
 *Demo en línea:* (https://mikey0800.github.io/ProyectoM1-LuisVeracierta/)
 
-* Demostración MVP **[Gif usando el MVP][def]**
+**[Gif usando el MVP][def]**
 
 *Repositorio de GitHub:* (https://github.com/Mikey0800/ProyectoM1-LuisVeracierta.git)
 
@@ -82,7 +82,8 @@ docs
  └── README.md
 documentación
  ├── app.gif
- └── README.md
+ └── uso-ia.md
+ README.md
 
 index.html: contiene la estructura principal de la aplicación.
 
@@ -137,10 +138,10 @@ Estas propiedades contribuyen a una interfaz más dinámica sin recurrir a bibli
 *prompt 1*
 eu chat, no sé por donde empezar a escribir código, estoy haciendo JavaScript (principiante) puro (sin frameworks) para generar una página que genere paletas aleatorias hasta de 6, 8 y 9 colores, puedes guiarme en el proceso, no me des código, ayúdame con pistas y enséñame a escribirlo yo mismo paso a paso.
 *Aprender fundamentos*
-[def]:./documentación/imagenes/image.png
-[def]:./documentación/imagenes/image-1.png
-[def]:./documentación/imagenes/image-2.png
-[def]:./documentación/imagenes/image-3.png
+![def](documentación/imagenes/image.png)
+![def]:(![alt text](documentación/imagenes/image-1.png))
+![def]:(![alt text](documentación/imagenes/image-2.png))
+![def]:(![alt text](documentación/imagenes/image-3.png))
 
 🤖 *Documentación del uso de inteligencia artificial*
 (https://chatgpt.com/c/6ac99057-7a3c-83e9-a8f6-9753ddae98fd)
@@ -170,3 +171,6 @@ GitHub: @Mikey0800
 Mail: luisveracierta7w7@gmail.com 
 
 Desarrollado como proyecto de aprendizaje Henry, de desarrollo web con HTML, CSS y JavaScript puro.
+
+
+[def2]: imagenes/imagen.png
